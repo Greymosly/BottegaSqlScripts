@@ -1,0 +1,71 @@
+INSERT INTO students(students_name)
+VALUES("Imogene");
+
+INSERT INTO students(students_name)
+VALUES("Ashley");
+
+INSERT INTO students(students_name)
+VALUES("Kristine");
+
+INSERT INTO students(students_name)
+VALUES("James");
+
+INSERT INTO students(students_name)
+VALUES("Daisy");
+
+
+--COURSES
+
+INSERT INTO courses(courses_name, courses_students_id)
+VALUES("History", 1);
+
+INSERT INTO courses(courses_name, courses_students_id)
+VALUES("Science", 1);
+
+INSERT INTO courses(courses_name, courses_students_id)
+VALUES("Computer Science", 1);
+
+INSERT INTO courses(courses_name, courses_students_id)
+VALUES("Python", 1);
+
+INSERT INTO courses(courses_name, courses_students_id)
+VALUES("Art", 1);
+
+INSERT INTO courses(courses_name, courses_students_id)
+VALUES("English", 1);
+
+
+--GRADES
+
+INSERT INTO grades(grades_letter, grades_students_id, grades_courses_id)
+VALUES("A", 5, 15);
+
+INSERT INTO grades(grades_letter, grades_students_id, grades_courses_id)
+VALUES("B", 5, 16);
+
+INSERT INTO grades(grades_letter, grades_students_id, grades_courses_id)
+VALUES("A", 5, 19);
+
+INSERT INTO grades(grades_letter, grades_students_id, grades_courses_id)
+VALUES("C", 4, 14);
+
+INSERT INTO grades(grades_letter, grades_students_id, grades_courses_id)
+VALUES("A", 1, 5);
+
+
+--PROFESSORS
+
+INSERT INTO professors(professors_name, professors_courses_id)
+VALUES("Smith", 1);
+
+INSERT INTO professors(professors_name, professors_courses_id)
+VALUES("Brown", 2);
+
+INSERT INTO professors(professors_name, professors_courses_id)
+VALUES("Bridges", 3);
+
+INSERT INTO professors(professors_name, professors_courses_id)
+VALUES("Hudgens", 4);
+
+INSERT INTO professors(professors_name, professors_courses_id)
+VALUES("White", 5);
