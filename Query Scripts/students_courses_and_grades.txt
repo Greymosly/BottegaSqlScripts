@@ -1,0 +1,7 @@
+SELECT students_name AS "Student", courses_name AS "Course", grades_letter AS "Grade"
+FROM grades
+JOIN students
+ON grades.grades_students_id = students_id
+JOIN courses
+ON grades.grades_courses_id = courses_id
+ORDER BY students_name ASC;

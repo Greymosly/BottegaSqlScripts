@@ -1,0 +1,10 @@
+--TOP GRADES FOR STUDENTS
+
+SELECT courses_name AS "Course", grades_letter AS "Top Grade", students_name AS "Student"
+FROM courses c
+JOIN grades g
+ON c.courses_id = g.grades_courses_id
+JOIN students s
+ON s.students_id = g.grades_students_id
+WHERE grades_letter = "A"
+ORDER BY grades_letter ASC;
