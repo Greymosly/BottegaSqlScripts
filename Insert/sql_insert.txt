@@ -1,3 +1,5 @@
+--STUDENTS 
+
 INSERT INTO students(students_name)
 VALUES("Imogene");
 
